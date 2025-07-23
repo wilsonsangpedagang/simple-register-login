@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #00296b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.saira {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.welcome-box {
+    width: 500px;
+    height: 300px;
+    background-color: #00509d;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-txt {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fdc500;
+}
+
+#login-btn {
+    background: linear-gradient(135deg, #fff275, #ffd500, #fdc500, #ffae00);
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    color: #00296b; /* ensures contrast on yellow */
+    
+    padding: 6px 15px;      /* more inner space *          /* optional: fixed height */
+    border: none;            /* cleaner look */
+    cursor: pointer;         /* makes it feel clickable */
+
+}
+
+#register-btn {
+    background: linear-gradient(135deg, #fff275, #ffd500, #fdc500, #ffae00);
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    color: #00296b; /* ensures contrast on yellow */
+    
+    padding: 6px 15px;      /* more inner space *          /* optional: fixed height */
+    border: none;            /* cleaner look */
+    cursor: pointer;
+}
+
+.question-box {
+    width: 500px;
+    height: 550px;
+    background-color: #00509d;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-form {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* adds small space between inputs/buttons */
+}
+
+.login-form input {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #b3d4fc;
+}
+
+.login-form button.login {
+    padding: 10px 16px;
+    background: linear-gradient(135deg, #fff275, #ffd500, #fdc500, #ffae00);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: #00296b; /* ensures contrast on yellow */
+
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+.login-text {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fdc500;
+}
+
+.login-desc {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fdc500;
+}
+
+.user {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fdc500;
+}
+
+.pass {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fdc500;
+}
+
+.reg-text {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fdc500;
+}
+
+.reg-desc {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fdc500;
+}
+
+.question-form button.register {
+    padding: 10px 16px;
+    background: linear-gradient(135deg, #fff275, #ffd500, #fdc500, #ffae00);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: #00296b; /* ensures contrast on yellow */
+
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #b3d4fc;
+}
+
+
+
